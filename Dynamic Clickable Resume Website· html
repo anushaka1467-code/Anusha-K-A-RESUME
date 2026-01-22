@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anusha K A | Dynamic Resume</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <h2 class="logo">Anusha K A</h2>
+      <ul class="menu">
+        <li onclick="showSection('about')">About</li>
+        <li onclick="showSection('education')">Education</li>
+        <li onclick="showSection('skills')">Skills</li>
+        <li onclick="showSection('internship')">Internship</li>
+        <li onclick="showSection('languages')">Languages</li>
+        <li onclick="showSection('contact')">Contact</li>
+      </ul>
+      <a class="download-btn" href="Resume_Anusha_KA.pdf" download>⬇ Download Resume</a>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="content">
+      <section id="about" class="section active">
+        <h1>Career Objective</h1>
+        <p>Motivated and detail-oriented BCA student seeking opportunities to apply academic knowledge and technical skills in the IT industry, while contributing to organizational growth and gaining practical experience.</p>
+      </section>
+
+      <section id="education" class="section">
+        <h1>Education</h1>
+        <ul>
+          <li><b>BCA (Computer Science)</b> – Indus Valley College, Bangalore<br>5th Semester | CGPA: 9.5</li>
+          <li><b>PUC (Commerce)</b> – Govt. PU College Amruta, Thirthahalli, Shimoga | 82%</li>
+        </ul>
+      </section>
+
+      <section id="skills" class="section">
+        <h1>Skills</h1>
+        <ul>
+          <li>Python, Java, C Programming</li>
+          <li>Data Structures & DBMS</li>
+          <li>Cloud Computing Basics</li>
+          <li>Fast Learner, Interested in Data Science</li>
+        </ul>
+      </section>
+
+      <section id="internship" class="section">
+        <h1>Internship</h1>
+        <p>Planning to join internship after 5th semester examination with a reputed IT company.</p>
+      </section>
+
+      <section id="languages" class="section">
+        <h1>Languages Known</h1>
+        <ul>
+          <li>Kannada</li>
+          <li>English</li>
+          <li>Hindi (Moderate)</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="section">
+        <h1>Contact Details</h1>
+        <p>Email: <a href="mailto:anushaka1467@gmail.com">anushaka1467@gmail.com</a></p>
+        <p>Phone: <a href="tel:+917899442587">7899442587</a></p>
+        <p>LinkedIn: <a href="http://linkedin.com/in/anusha-k-a-651a09356" target="_blank">View Profile</a></p>
+        <p>Address: No.12, Sri Datta Krupa, Shiradi Sai Layout, Bangalore - 560067</p>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
