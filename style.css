@@ -65,6 +65,7 @@ body {
   margin-bottom: 15px;
 }
 
+/* CLICK SECTIONS */
 .section {
   background: white;
   padding: 15px;
@@ -77,11 +78,15 @@ body {
   display: block;
 }
 
-/* LAST COMPANY FOOTER TEXT */
-.company-footer {
+/* BIG COMPANY BOX ALWAYS SHOW */
+.company-box {
+  display: block !important;
+  border: 3px solid #2b65ec;
   text-align: center;
-  font-weight: bold;
-  font-size: 16px;
-  margin-top: 30px;
-  color: #333;
+  font-size: 20px;
+  padding: 25px;
+}
+
+.company-box h2 {
+  color: #2b65ec;
 }
