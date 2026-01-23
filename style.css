@@ -1,76 +1,87 @@
 body {
-  margin:0;
-  font-family: Arial;
-  background:#f5f7fa;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
 }
 
 .container {
-  display:flex;
-  height:100vh;
+  display: flex;
+  height: 100vh;
 }
 
+/* LEFT PANEL */
 .sidebar {
-  width:250px;
-  background:white;
-  padding:20px;
-  box-shadow:2px 0 10px #ccc;
-  text-align:center;
+  width: 250px;
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-right: 1px solid #ddd;
 }
 
 .profile-pic {
-  width:120px;
-  height:120px;
-  border-radius:50%;
-  object-fit:cover;
-  border:3px solid #2563eb;
-  margin-bottom:10px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #2b65ec;
+  object-fit: cover;
 }
 
 .sidebar button {
-  width:100%;
-  padding:10px;
-  margin:5px 0;
-  border:none;
-  background:#e6edff;
-  cursor:pointer;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  background: #eaf0ff;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .sidebar button:hover {
-  background:#cfd9ff;
+  background: #2b65ec;
+  color: white;
 }
 
 .download {
-  display:block;
-  margin-top:20px;
-  background:#2563eb;
-  color:white;
-  padding:10px;
-  text-align:center;
-  text-decoration:none;
-  border-radius:5px;
+  display: block;
+  margin-top: 15px;
+  padding: 10px;
+  background: #2b65ec;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
+/* RIGHT CONTENT */
 .content {
-  flex:1;
-  padding:30px;
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
 }
 
 .profile-main {
-  background:white;
-  padding:15px;
-  border-radius:10px;
-  box-shadow:0 2px 8px #ddd;
-  margin-bottom:20px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
 }
 
 .section {
-  display:none;
-  background:white;
-  padding:15px;
-  border-radius:10px;
-  box-shadow:0 2px 8px #ddd;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: none;
 }
 
-.active {
-  display:block;
+.section.active {
+  display: block;
+}
+
+/* LAST COMPANY FOOTER TEXT */
+.company-footer {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 30px;
+  color: #333;
 }
