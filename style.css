@@ -34,6 +34,7 @@ body {
   background: #eaf0ff;
   cursor: pointer;
   border-radius: 5px;
+  font-size: 14px;
 }
 
 .sidebar button:hover {
@@ -78,7 +79,7 @@ body {
   display: block;
 }
 
-/* BIG COMPANY BOX ALWAYS SHOW */
+/* BIG COMPANY BOX */
 .company-box {
   display: block !important;
   border: 3px solid #2b65ec;
